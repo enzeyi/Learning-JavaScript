@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!--Below;This is the title of this file>
    <title> SAMPLE JS ALERT </title>
+<!--Below;These are the CSS Styling for the buttons on this file>
    <style type="text/css">
       button {
          font-family: sans-serif;
@@ -19,8 +21,10 @@
    </style>
 </head>
 <body>
+<!--Below;This is a button,it has an ID>
    <button id="btn"> Show an 'attention' alert </button>
 
+<!--Below;This is the JS Script that creates an alert once the button is clicked on.>
    <script type="text/javascript">
       document.getElementById("btn").onclick = function() {
          alert("ATTENTION!")
