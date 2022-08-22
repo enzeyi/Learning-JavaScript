@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Below;Title of The HTML page>
+   <title> Changing HTML Value/Content Using JS </title>
+</head>
+<body>
+<!--Below;An HTMl Paragraph that acts as the Content/Value>
+   <p id="demo"> Hello World! </p>
+<!--Below;An HTML button that runs a JS function named 'myFunc()' upon clicking>
+   <button type="button" onclick="myFunc()"> Click To Change Value </button>
+<!--Below;A JS function named 'myFunc()It changes the HTML Content in the paragraph above.>
+   <script>
+      function myFunc() {
+         document.getElementById("demo").innerHTML = "This is it!😂";
+      }
+   </script>
+</body>
+</html>
