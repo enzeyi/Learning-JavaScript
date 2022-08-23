@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Below;We can also change the styles in a paragraph/heading texts using Javascript-->
+   <title> Changing Texts styles using JS </title>
+</head>
+<body>
+<!--Below;This is a paragraph,it has an ID 'jstyle' and the default style is set to gold-->
+   <p id="jstyle" style="color: gold;">What is my color RN? </p>
+<!--Below;A button.Upon clicking the button a JS function named myFunc() is executed and hence changing the color of the text above.-->
+   <button type="button" onclick="myFunc()"> Change Color </button>
+<!--Below;JS Script.Created a function.Go to the doc,then get Element By the assigned I'd,then go to style,then go to style type,then change it as commanded.-->
+   <script>
+      function myFunc() {
+         document.getElementById("jstyle").style.color = "green";
+         document.getElementById("jstyle").style.fontWeight = "bold";
+         document.getElementById("jstyle").style.fontSize = "300%";
+      }
+   </script>
+</body>
+</html>
