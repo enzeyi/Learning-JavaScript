@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Below;This page contains an image and a button.We are going to use JS through the button to change the image that is being displayed to a different one.This is possible by changing the src value>
+   <title> Changing Image Display using JS </title>
+</head>
+<body>
+<!--Below;This is an image element that displays a.  We have assigned the image an ID named 'image' >
+   <img src="images/sunflower.png" id="image" />
+<!--Below;on clicking the button below the JS function named 'myFunc()' gets executed>
+   <button type="button" onclick="myFunc()"> Change Image </button>
+<!--Below;This is the JS Script.Here I created a function,the function goes to the document then gets the image element by the assigned Id then it changes the image src>
+   <script>
+      function myFunc() {
+         document.getElementById("image").src = "images/star.png";
+      }
+   </script>
+</body>
+</html>
