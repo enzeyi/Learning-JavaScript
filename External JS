@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Below;You can link JS from an external file.-->
+   <title> External Js </title>
+<!--Below;the script's source value,defines the script source.You may either create a JS folder for the JS files or just leave the file to exist on it's own.-->
+<!--Below;This is just a sample of how you should use JS from external.-->
+   <script src="JS/Hello2.js"></script>
+</head>
+<body>
+   <p id="Hello"> Hello Enzeyi! </p>
+   <button type="button" onclick="Hello2()"> ANSWER </button>
+<!--Below;This is how the JS file should be like:
+function Hello2(){
+document.getElementById("Hello").innerHTMl="Hello Folk,How are you today?;"
+}-->
+</body>
+</html>
