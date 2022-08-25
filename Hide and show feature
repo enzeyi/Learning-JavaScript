@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Below;Show/Hide Feature using JS & Buttons-->
+   <title> JS-Show/Hide Feature </title>
+</head>
+<body>
+<!--Below;A Div,with an id value of "S/H" and style values for width,height and background-color+A display text reading 'Hello Enzeyi'-->
+   <div id="S/H" style="width: 200px; height: 200px; background-color: yellow"> Hello,can you see me? </div>
+<!--Below;There are two buttons.Onclicking each executes a different function.The first function is for showing while the second is for hiding.-->
+   <button type="button" onclick="show()"> Show </button>
+   <button type="button" onclick="hide()"> Hide </button>
+<!--Below;The JS script containing the two functions for hiding and showing the text.-->
+   <script>
+      function show() {
+         document.getElementById("S/H").style.display = "block";
+      }
+      function hide() {
+         document.getElementById("S/H").style.display = "none";
+      }
+   </script>
+</body>
+</html>
