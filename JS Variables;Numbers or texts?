@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> JS Variables,Number or Text? </title>
+<!--A JS Variable Can Either Be A Number or a text.-->
+</head>
+<body>
+   
+
+   <script>
+/*A JS Variable can either be a number,a text or any other value*/
+      var firstName = "Emmanuel";
+      var lastName = "Enzeyi";
+      var age = 21;
+      
+      // printing values
+      document.write(firstName + /*empty double quotes create a space*/" " + lastName + /*this br tag creates a line break*/"<br>");
+      document.write(age);
+   </script>
+</body>
+</html>
