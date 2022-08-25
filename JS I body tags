@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> JS Scripts within the body tags. </title>
+</head>
+<body>
+<!--Below;This paragraph have an id with value 'quiz'-->
+   <p id="quiz"> Where are the JS Scripts? </p>
+<!--Below;on clicking on this button,the function answer() is executed.-->
+   <button type="button" onclick="answer()"> ANSWER </button>
+<!--Below;Here i created function answer().-->
+   <script type="text/javascript">
+      function answer() {
+         document.getElementById("quiz").innerHTML = "They're Within the body tags of this HTML page.";
+      }
+   </script>
+</body>
+</html>
