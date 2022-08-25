@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Disabling Code Using Comments</title>
+</head>
+<body>
+   <p id="here"></p>
+                   <button type="button" onclick="prod()"> Show Product of 6 & 9</button>
+
+   <script>
+      function prod() {
+         var x = 6;
+         var y = 9;
+         var sum = x + y; // adds x and y
+         var product = x * y; // multiplies y to x
+      
+         document.getElementById("here").innerHTML = product;
+         // document.getElementById("here").innerHTML = sum;
+      }
+   </script>
+</body>
+</html>

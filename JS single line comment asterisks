@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Single-Line Comments-Asterisks</title>
+</head>
+<body>
+   <p id="Quiz"> Would You Like To Know My Full Name?</p>
+   <button type="button" onclick="Fname()"> YES </button>
+
+   <script>
+/*This is an example of a single line comment that uses an asterisk*/
+      /* this function changes the content of the paragraph element */
+      function Fname() {
+         var  /*The good thing about the asterisks is that you can also use it in the middle of a line just like this one over here*/ text ="Sure,my full name is Emmanuel Enzeyi Siema";
+         document.getElementById("Quiz").innerHTML = text;
+      }
+   </script>
+</body>
+</html>
