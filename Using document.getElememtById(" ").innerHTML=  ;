@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Using document.getElementById("").innerHTML= ;</title>
+</head>
+<body>
+   <p id="demo"></p>
+   <button type="button" onclick="sum()"> 5+5=??? </button>
+
+   <script>
+      function sum() {
+         var x = 5;
+         var y = 5;
+         var sum = x + y; // adds x and y
+                       
+         document.getElementById("demo").innerHTML = sum; // writes 10
+      }
+   </script>
+</body>
+</html>
