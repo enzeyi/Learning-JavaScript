@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> JS Multiline Comment </title>
+</head>
+<body>
+   <p id="ML"></p>
+   <button type="button" onclick="Sum()"> Show Sum of 6 and 9 </button>
+
+   <script>
+      function Sum() {
+         var x = 6;
+         var y = 9;
+         var sum = x + y;
+         /* let's add the value of y to x 
+            and then print the sum */
+/*This one here
+us a good example of
+a multiline comment */
+      
+         /*
+            you can also comment like this
+            sometimes it's more convenient
+            and easier to see
+         */
+         document.getElementById("ML").innerHTML = sum;
+      }
+   </script>
+</body>
+</html>
