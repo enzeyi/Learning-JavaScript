@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> JS Must Enclose Elements </title>
+<!--Below;Always Make Sure that you write your JavaScript codes within the script tags-->
+   <script type="text/javascript">
+      document.write("All JavaScript Scripts Must Be Written Within the script opening and closing tags.")
+   </script>
+</body>
+</html>
