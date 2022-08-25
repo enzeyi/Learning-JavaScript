@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> JS Single Line Comment</title>
+</head>
+<body>
+   <p id="SL"> Do You Want To Know My Full Name? </p>
+   <button type="button" onclick="FName()"> Yes </button>
+
+   <script>
+      //This one here is an example of a single line comment in javascript.
+      // this function changes the content of the paragraph element
+      function FName() {
+         var text = "My name is Emmanuel Enzeyi Siema";
+         document.getElementById("SL").innerHTML = text;
+      }
+   </script>
+</body>
+</html>
