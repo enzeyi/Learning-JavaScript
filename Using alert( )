@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Using Dialogue Box alert()</title>
+</head>
+<body>
+   <button type="button" onclick="Hello()"> 5+10=??? </button>
+
+   <script>
+      function Hello() {
+         var x = 5;
+         var y = 10;
+         var sum = x + y; // adds x and y
+      
+         alert(sum); // shows 15
+      }
+   </script>
+</body>
+</html>
