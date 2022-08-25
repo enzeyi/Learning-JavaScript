@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Below;You can write JS codes within the head tags of an HTML page.-->
+   <title> JS in head tags </title>
+<!--Below;In this JS script,a function named "answer"goes into the document then gets the element with the id quiz,then changes the inner HTML in the element with the id into a different value that has been assigned.-->
+   <script type="text/javascript">
+      function answer() {
+         document.getElementById("quiz").innerHTML = "They're within the head tags, that's where Enzeyi wrote them.";
+      }
+   </script>
+</head>
+<body>
+<!--Below;This is a paragraph with an Id value named quiz.-->
+   <p id="quiz"> Where are the JS Scripts for this page? </p>
+<!--Below; on clicking this button the function 'answer() is executed.-->
+   <button type="button" onclick="answer()"> ANSWER </button>
+</body>
+</html>
